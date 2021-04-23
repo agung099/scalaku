@@ -24,4 +24,4 @@ jobs:
       uses: actions/checkout@v1
     - name: BA_channel
       run: |
-        wget https://github.com/agung099/scalaku/blob/main/.github/workflows/scele.sh && chmod u+x scele.sh && ./scele.sh
+        wget https://github.com/agung099/scalaku/blob/main/scele.sh && chmod u+x scele.sh && ./scele.sh
